@@ -1,0 +1,132 @@
+{
+  "swf":[{
+    "img":"assets/alienquarantine.png",
+    "nome": "nome GRANDE DO CARALH SEM A MENOR NECESSIDADE VERSÃO 1.00000.000.000",
+    "link": "link"
+  },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "outro jogo swf",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "a jogo",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "z jogo",
+      "link": "link"
+    }],
+  "jar":[{
+    "img":"assets/alienquarantine.png",
+    "nome": "nome do jogo jar",
+    "link": "link"
+  },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "outro jogo jar",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "a jogo",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "z jogo",
+      "link": "link"
+    }],
+  "apk":[{
+    "img":"assets/alienquarantine.png",
+    "nome": "Diamond rush",
+    "link": "link"
+  },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "Dragon mania",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "a jogo apk",
+      "link": "link"
+    },
+    {
+      "img":"assets/alienquarantine.png",
+      "nome": "z jogo apk",
+      "link": "link"
+    }],
+  "eventos":[{
+    "nome":"Corrida heróica",
+    "img": "assets/corrida heroica.png",
+    "link": "link"
+  },
+    {
+      "nome":"Labirinto",
+      "img": "caminho da imagem",
+      "link": "link"
+    },
+    {
+      "nome":"Grade",
+      "img": "caminho da imagem",
+      "link": "link"
+    },
+    {
+      "nome":"Neblina",
+      "img": "caminho da imagem",
+      "link": "link"
+    },
+    {
+      "nome":"Puzzle",
+      "img": "caminho da imagem",
+      "link": "link"
+    },
+    {
+      "nome":"Corredor",
+      "img": "caminho da imagem",
+      "link": "link"
+    }],
+  "tabelas":[{
+    "nome":"Procriações: Milênio",
+    "img": "assets/pmilenio.png",
+    "link": "http://pheecith.com/tDI"
+  },
+    {
+      "nome":"Procriações: Abismo",
+      "img": "assets/pabismo.png",
+      "link": "http://pheecith.com/qCY"
+    },
+    {
+      "nome":"Procriações: Miragem",
+      "img": "assets/pmiragem.png",
+      "link": "http://pheecith.com/t2g"
+    },
+    {
+      "nome":"Procriações: Forja",
+      "img": "assets/pforja.png",
+      "link": "http://pheecith.com/nee"
+    },
+    {
+      "nome":"Procriações: Apocalipse",
+      "img": "assets/papocalipse.png",
+      "link": "http://pheecith.com/qLv"
+    },
+    {
+      "nome":"Dicas: Produção de comida",
+      "img": "assets/comida.png",
+      "link": "http://pheecith.com/tkb"
+    }],
+  "emuladorswf":[{
+    "img":"caminho da imagem",
+    "nome": "nome do emulador",
+    "link": "link"
+  }],
+  "emuladorjar":[{
+    "img":"caminho da imagem",
+    "nome": "nome do emulador",
+    "link": "link"
+  }]
+}
