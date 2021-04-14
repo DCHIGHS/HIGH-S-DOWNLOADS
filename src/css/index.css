@@ -1,0 +1,86 @@
+@font-face {
+  font-family:"04B_30__";
+  src: url("./fonts/04B_30__.TTF");
+}
+body {
+  background-color: #110d16;
+}
+.menu a, .p_title h1 {
+  font-family: "04B_30__" !important;
+}
+.pages {
+  display: none;
+}
+.logo h1 {
+  font-family: "04B_30__" !important;
+}
+.nav-bar {
+  grid-template-columns: 10vw 80vw !important;
+  box-shadow: 0 1px 2px Black;
+}
+.logo {}
+.menu nav {
+  padding-top: 4em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  grid-gap: 10px;
+  justify-items: center;
+  padding: 10px;
+}
+.game-card {
+  background-color: #260940;
+  box-shadow: 2px 2px 5px Black;
+  width: 150px;
+  border: 1px solid aqua;
+  overflow: hidden;
+}
+.game-card img {
+  size: cover;
+  border-bottom: 1px solid white;
+  pointer-events: none;
+}
+.card-bottom {
+  padding: 10%;
+  color: white;
+  text-align: center;
+}
+.game-card p {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  height: 2em;
+  overflow-x: auto;
+}
+.game-card a, .btn-dow {
+  color: #260940;
+  font-weight: normal;
+  border-radius: 20px;
+  background-color: aqua;
+  display: block;
+}
+.game-card a:active, .game-card a:visited {
+  background-color: #40fa8c;
+}
+.text__container {
+  box-shadow: 2px 2px  8px Black;
+  background-color: #070115;
+  padding: 1em;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.text__container p {
+  font-weight: normal;
+}
+.font-normal {
+  font-weight: normal;
+}
+iframe {
+  max-width: 100%;
+  margin-top: 2em;
+}
