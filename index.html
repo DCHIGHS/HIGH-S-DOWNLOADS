@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#260940" />
+  <link rel="stylesheet" href="./src/css/devpack.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="./src/css/index.css">
+  <title>0.1</title>
+</head>
+
+<body>
+  <div id="navbar-menu">
+    <!--Cabeçalho-->
+    <header class='nav-bar bg-darkpurple'>
+      <!--nav bar-->
+      <div class='barra color-white'>
+        <span onclick="showmenu()">☰</span>
+      </div>
+      <div class='logo'>
+        <h1><img src="./assets/Hlogo.png" alt="HIGH'S DOWNLOADS" /></h1>
+      </div>
+      <!--menu-->
+      <div class='menu a-style-radius hovercolor-purple'>
+        <nav class="bg-darkpurple">
+          <ul>
+            <li><a href='#/'>Home</a></li>
+            <li> <a>Dragon city</a>
+              <ul class="txt3D-laranja">
+                <li><a href='#/mapas'>Mapas</a></li>
+                <li><a href='#/tabelas'>Tabelas</a></li>
+              </ul>
+            </li>
+            <li> <a>SWF</a>
+              <ul class="txt3D-laranja">
+                <li><a href='#/swf'>Jogos</a></li>
+                <li><a href='#/emuladores-swf'>Emuladores</a></li>
+              </ul>
+            </li>
+            <li><a>JAR</a>
+              <ul class="txt3D-laranja">
+                <li><a href='#/jar'>Jogos</a></li>
+                <li><a href='#/emulador-jar'>Emuladores</a></li>
+              </ul>
+            </li>
+            <li><a>APK</a>
+              <ul class="txt3D-laranja">
+                <li><a href='#/apk'>Jogos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <div class="space-5"></div>
+  <section class="pages">
+    <div id="inicio">
+      <span class="p_title txt3D-laranja">
+        <h1>BEM VINDO!</h1>
+      </span>
+      <div class="space-5">
+
+      </div>
+      <div class="text__container">
+        <p>
+          Bem vindo a página <span class="txt3D-laranja font-normal">HIGH'S DOWNLOADS</span>, aqui você encontra vários jogos divertidos para baixar, e emuladores para os que precisam de um para rodar, e muito mais, veja no vídeo abaixo como passar pelo encurtador para poder fazer o download:
+        </p>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/1fd-Bv2UWYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div id="mapas">
+      <span class="p_title txt3D-laranja">
+        <h1>Mapas</h1>
+      </span>
+      <div class="space-4"></div>
+
+      <div id="container-mapas" class="grid-container">
+      </div>
+    </div>
+    <div id="tabelas">
+      <span class="p_title txt3D-laranja">
+        <h1>Tabelas</h1>
+      </span>
+      <div class="space-4"></div>
+
+      <div id="container-tabelas" class="grid-container">
+      </div>
+    </div>
+    <div id="swf">
+      <span class="p_title txt3D-laranja">
+        <h1>SWF</h1>
+      </span>
+      <div class="space-4"></div>
+
+      <div id="swf-games" class="grid-container">
+      </div>
+    </div>
+    <div id="emulador-swf">
+      <span class="p_title txt3D-laranja">
+        <h1>SWF Emuladores</h1>
+      </span>
+      <div class="space-4"></div>
+      <div id="container-emuladorswf" class="grid-container">
+
+      </div>
+
+    </div>
+    <div id="jar">
+      <span class="p_title txt3D-laranja">
+        <h1>JAR</h1>
+        <div class="space-4"></div>
+      </span>
+      <div id="jar-games" class="grid-container">
+      </div>
+    </div>
+    <div id="emulador-jar">
+      <span class="p_title txt3D-laranja">
+        <h1>JAR Emuladores</h1>
+      </span>
+      <div class="space-4"></div>
+    </div>
+    <div id="apk">
+      <span class="p_title txt3D-laranja">
+        <h1>APK</h1>
+      </span>
+      <div class="space-4"></div>
+      <div id="apk-games" class="grid-container">
+      </div>
+    </div>
+  </section>
+  <div id="app">
+  </div>
+
+  <!---Scripts-->
+  <script src="./src/js/index.js"></script>
+  <script src="./src/js/router.js"></script>
+  <script src="./src/js/games.js"></script>
+  <script src="./src/js/menu.js"></script>
+</body>
+
+</html>
